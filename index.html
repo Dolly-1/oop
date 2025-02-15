@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney Characters</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+        
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    background-image: url(cassel.jpg)  ;
+    background-size: cover;
+  margin: 0;
+}
+
+header{
+background: rgba(15, 15, 97, 0.8) transparent;
+padding: 15px;
+font-size: 30px;
+font-family: 'Great Vibes', cursive;
+
+}
+.id{
+    border-radius: 50%;
+    image-resolution: 10px;
+    float: left;
+    width: 100px;
+    height: auto;
+    padding-top: 0px;
+    margin-top: 30px;
+}
+
+
+
+h1{
+    border-color: #fff;
+    text-shadow: #fff;
+    color: #ffffff;
+}
+h2{
+    border-color: #fff;
+    text-shadow: #fff;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin-top: 10%;
+    box-shadow: 
+
+    5px 5px 10px rgba(0, 0, 0, 0.2), 
+
+    -5px -5px 10px rgba(0, 0, 0, 0.2);
+    padding: 0;
+
+}
+h1:hover{
+    box-shadow: #fff;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.character {
+    position: relative;
+    margin: 20px;
+    border: 2px solid #faf8f8;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+    cursor: pointer;
+}
+.character img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.character :hover{
+    border:2px rgb(6, 1, 31);
+}
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(82, 7, 38, 0.7);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.character:hover .info {
+    opacity: 1;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    opacity: 0.7;
+    box-shadow: 0px 4px 10px rgba(125, 143, 224, 0.7);
+}
+table, th, td {
+    border: 2px solid rgb(161, 31, 96);
+    padding: 10px;
+    text-align: center;
+    text-decoration-color: #000;
+}
+th {
+    background: #5a042c;
+    color: rgb(255, 255, 255);
+    border: #000;
+    
+}
+
+tr:hover {background-color: rgb(209, 111, 144);}
+
+form {
+    background: rgba(100, 100, 211, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    display:inline-table;
+    margin-top: 20px;
+}
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+a{
+    color: #f4f4f4;
+}
+a:hover{
+    color: aqua;
+}
+
+button {
+    background: #000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #444;
+}
+
+    </style>
+</head>
+<body>
+   
+  <header>
+    <img src="logo.jpeg" alt="Disney World" class="id">
+    <h1>Welcome to the Disney Characters </h1>
+  </header>
+  <br>
+  <br>
+    <nav>
+    
+    <div class="container">
+        <div class="character">
+            <img src="raya.jpeg" alt="Mickey Mouse">
+            <div class="info">Raya is an independent warrior and resilient hero, whose wit is as sharp as her blade. 
+                Despite personal loss, perilous encounters, and numerous setbacks, Raya never gives up. </div>
+        </div>
+        <div class="character">
+            <img src="cindrella.jpeg" alt="Donald Duck">
+            <div class="info">Cinderella knows that being a positive influence is a 
+                sort of magic that can transform the world, so she is warm and sincere with everyone she meets.</div>
+        </div>
+        <div class="character">
+            <img src="merida.jpeg" alt="Goofy">
+            <div class="info">Merida believes that if you don’t like a certain story about you, you can write your own. 
+                Determined to create her own path in life, 
+                Merida defies an age-old custom sacred to her parents and the Lords of the Land.</div>
+        </div>
+        <div class="character">
+            <img src="moana.jpeg" alt="Minnie Mouse">
+            <div class="info">Moana is a strong-willed, independent wayfinder. Though she has moments of self-doubt, s
+                he has great pride in who she is and where she comes from, and doesn’t back away from new challenges.</div>
+        </div>
+        <div class="character">
+            <img src="jasmine.jpeg" alt="Minnie Mouse">
+            <div class="info">Jasmine is incredibly independent and strong. S
+                he isn’t afraid to speak her mind, no matter who she’s up against, and won’t hesitate to stand up for what’s right.</div>
+        </div>
+        <div class="character">
+            <img src="rapunzel.jpeg" alt="Minnie Mouse">
+            <div class="info">Rapunzel is the creative, spirited Princess of Corona,
+                 with a strong sense of curiosity about the world, and a willingness to step outside of her comfort zone. </div>
+        </div>
+        <div class="character">
+            <img src="mulan.jpeg" alt="Minnie Mouse">
+            <div class="info">Mulan is clever and down-to-earth, and with the help of her new friends,
+                 proves her worth to her family and country by becoming a legendary warrior and savior of China.</div>
+        </div>
+        <div class="character">
+            <img src="aurora.jpeg" alt="Minnie Mouse">
+            <div class="info">Also known as Briar Rose, Aurora is graceful, playful, and optimistic. She knows that a wonderful future awaits, 
+                if you just have the courage to dream it, and her joy for life is reflected in her imaginative interactions with her forest friends.</div>
+        </div>
+        <div class="character">
+            <img src="ariel.jpeg" alt="Minnie Mouse">
+            <div class="info">Driven by her independent spirit and curiosity (to both Sebastian and her father’s chagrin!),
+                 Ariel is always looking to learn about the treasures she finds and the people around her.</div>
+        </div>
+        <div class="character">
+            <img src="belle.jpeg" alt="Minnie Mouse">
+            <div class="info">Belle is imaginative and smart, and comfortable being authentically herself. She adores a good book, 
+                because different stories bring her to new places, 
+                introduce her to new people, and allow her to see new perspectives.</div>
+        </div>
+        
+    </div>
+    </nav>
+
+    <h2>Character Information</h2>
+    <table>
+        <tr>
+            <th>Character</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Mickey Mouse</td>
+            <td>The iconic mascot of Disney.</td>
+        </tr>
+        <tr>
+            <td>Donald Duck</td>
+            <td>The fun-loving and sometimes short-tempered duck.</td>
+        </tr>
+        <tr>
+            <td>Goofy</td>
+            <td>The lovable and clumsy dog with a big heart.</td>
+        </tr>
+        <tr>
+            <td>Minnie Mouse</td>
+            <td>Mickey's sweet and stylish companion.</td>
+        </tr>
+    </table>
+
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Useful Links</h2>
+    <ul>
+        <li><a href="https://www.disney.com">Official Disney Website</a></li>
+        <li><a href="https://www.disneyplus.com">Disney+</a></li>
+        <li><a href="https://www.shopdisney.com">Shop Disney</a></li>
+    </ul>
+</body>
+</html>
